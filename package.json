@@ -1,0 +1,9 @@
+{
+  "name": "shape.txt",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "*",
+    "execSync":"*",
+    "xml2js":"*"
+  }
+}
