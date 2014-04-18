@@ -18,7 +18,7 @@ _.each( dir, function(file){
 		if ( err ){
 			return console.error(err);
 		}
-		points = result.gpx.wpt;
+		points = result.gpx.trk[0].trkseg[0].trkpt;
 		_.each( points, function(point, index){
 			fs.appendFileSync('./output/shapes.txt', file + ',' + point.$.lat + ',' + point.$.lon +',' + index +',\n');
 		});
