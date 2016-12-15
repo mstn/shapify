@@ -1,3 +1,5 @@
+> this project is deprecated since it evolved somehow to [this other project](https://github.com/mapourtransit)
+
 The aim of this project is to address this issue [2]. Here, you can find some scripts to compressed gpx files and create shapes.txt in the GTFS format.
 
 ## NOTE
